@@ -14,7 +14,7 @@ public class BaseTest extends Utils
         browserManager.openBrowser();
     }
 
-   // @AfterMethod // Create Annotation
+    @AfterMethod // Create Annotation
     public void tearDown()
     {
         //browserManager.closeBrowser();
